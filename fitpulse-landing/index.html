@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FitNexa — The AI-powered fitness and wellness app that transforms your body, tracks your health, and fuels your potential. Start your journey today." />
+  <title>FitNexa — Your Ultimate Fitness & Wellness App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container">
+      <a href="#" class="nav-logo" id="nav-logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">FitNexa</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+        <li><a href="#stats" class="nav-link">Results</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="app.html" class="btn btn-outline" id="nav-login-btn">Log In</a>
+        <a href="app.html" class="btn btn-primary" id="nav-signup-btn">Get Started Free</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-orb orb-1"></div>
+    <div class="hero-bg-orb orb-2"></div>
+    <div class="hero-bg-orb orb-3"></div>
+    <div class="hero-grid-overlay"></div>
+
+    <div class="hero-container">
+      <div class="hero-badge" id="hero-badge">
+        <span class="badge-dot"></span>
+        <span>🏆 #1 Fitness App of 2025</span>
+      </div>
+      <h1 class="hero-title" id="hero-title">
+        Unleash Your <br />
+        <span class="gradient-text">Peak Performance</span>
+      </h1>
+      <p class="hero-subtitle" id="hero-subtitle">
+        AI-powered workouts. Real-time health tracking. Personalized nutrition plans.
+        FitNexa is the all-in-one wellness companion built for people who demand results.
+      </p>
+      <div class="hero-actions" id="hero-actions">
+        <a href="app.html" class="btn btn-primary btn-lg" id="hero-cta-btn">
+          Start For Free
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+        <a href="#how-it-works" class="btn btn-ghost btn-lg" id="hero-watch-btn">
+          <span class="play-icon">▶</span>
+          Watch Demo
+        </a>
+      </div>
+      <div class="hero-social-proof" id="hero-social-proof">
+        <div class="avatars">
+          <div class="avatar" style="background: linear-gradient(135deg, #f97316, #ef4444)">A</div>
+          <div class="avatar" style="background: linear-gradient(135deg, #8b5cf6, #6366f1)">M</div>
+          <div class="avatar" style="background: linear-gradient(135deg, #06b6d4, #3b82f6)">J</div>
+          <div class="avatar" style="background: linear-gradient(135deg, #10b981, #06b6d4)">S</div>
+          <div class="avatar avatar-more">+2M</div>
+        </div>
+        <p class="social-text">Trusted by <strong>2 million+</strong> athletes worldwide</p>
+      </div>
+    </div>
+
+    <div class="hero-visual" id="hero-visual">
+      <div class="phone-mockup">
+        <div class="phone-screen">
+          <div class="phone-ui">
+            <div class="phone-header">
+              <div class="phone-greeting">Good Morning, Alex 👋</div>
+              <div class="phone-date">Today's Workout</div>
+            </div>
+            <div class="ring-container">
+              <svg class="ring-svg" viewBox="0 0 120 120">
+                <circle cx="60" cy="60" r="50" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="8"/>
+                <circle cx="60" cy="60" r="50" fill="none" stroke="url(#ring-gradient)" stroke-width="8"
+                  stroke-dasharray="251" stroke-dashoffset="63" stroke-linecap="round"
+                  transform="rotate(-90 60 60)"/>
+                <defs>
+                  <linearGradient id="ring-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#a855f7"/>
+                    <stop offset="100%" stop-color="#06b6d4"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="ring-info">
+                <div class="ring-value">75%</div>
+                <div class="ring-label">Goal</div>
+              </div>
+            </div>
+            <div class="stats-row">
+              <div class="stat-chip">
+                <span class="stat-icon">🔥</span>
+                <div>
+                  <div class="stat-val">847</div>
+                  <div class="stat-lbl">Calories</div>
+                </div>
+              </div>
+              <div class="stat-chip">
+                <span class="stat-icon">👣</span>
+                <div>
+                  <div class="stat-val">8.4k</div>
+                  <div class="stat-lbl">Steps</div>
+                </div>
+              </div>
+              <div class="stat-chip">
+                <span class="stat-icon">💓</span>
+                <div>
+                  <div class="stat-val">124</div>
+                  <div class="stat-lbl">BPM</div>
+                </div>
+              </div>
+            </div>
+            <div class="workout-card">
+              <div class="wc-label">Next Up</div>
+              <div class="wc-title">HIIT Blast 🏃</div>
+              <div class="wc-meta">30 min · Advanced · 400 kcal</div>
+              <div class="wc-bar"><div class="wc-fill"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="floating-card card-streak" id="float-streak">
+        <span>🔥</span>
+        <div>
+          <div class="fc-val">47 Day</div>
+          <div class="fc-lbl">Streak!</div>
+        </div>
+      </div>
+      <div class="floating-card card-weight" id="float-weight">
+        <span>⚡</span>
+        <div>
+          <div class="fc-val">-8.2 kg</div>
+          <div class="fc-lbl">This Month</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator" id="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ========== LOGOS / PARTNERS ========== -->
+  <section class="partners" id="partners">
+    <div class="container">
+      <p class="partners-label">Trusted by athletes from world-class organizations</p>
+      <div class="partners-logos">
+        <div class="partner-logo">🏅 Nike</div>
+        <div class="partner-logo">🎽 Adidas</div>
+        <div class="partner-logo">🏋️ Gold's Gym</div>
+        <div class="partner-logo">🍎 Apple Health</div>
+        <div class="partner-logo">⌚ Garmin</div>
+        <div class="partner-logo">📱 Samsung Health</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURES ========== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Everything You Need</span>
+        <h2 class="section-title">Powerful Features <br /><span class="gradient-text">Built For You</span></h2>
+        <p class="section-desc">From AI-generated workouts to real-time biometric tracking, FitNexa covers every aspect of your fitness journey.</p>
+      </div>
+      <div class="features-grid" id="features-grid">
+
+        <div class="feature-card feature-card-large" id="feat-1">
+          <div class="feature-icon-wrap" style="--icon-color: #a855f7">
+            <span class="feature-icon">🤖</span>
+          </div>
+          <h3 class="feature-title">AI Personal Trainer</h3>
+          <p class="feature-desc">Your adaptive workout engine learns your performance, adjusts intensity in real time, and creates programs tailored exclusively to your body and goals.</p>
+          <ul class="feature-list">
+            <li>✓ Auto-adapts to your fitness level</li>
+            <li>✓ 500+ guided exercises with form tips</li>
+            <li>✓ Progressive overload scheduling</li>
+          </ul>
+          <div class="feature-glow" style="--glow-color: #a855f7"></div>
+        </div>
+
+        <div class="feature-card" id="feat-2">
+          <div class="feature-icon-wrap" style="--icon-color: #06b6d4">
+            <span class="feature-icon">💓</span>
+          </div>
+          <h3 class="feature-title">Live Health Metrics</h3>
+          <p class="feature-desc">Sync with your wearable to track heart rate, VO2 max, sleep quality, and recovery score.</p>
+          <div class="feature-glow" style="--glow-color: #06b6d4"></div>
+        </div>
+
+        <div class="feature-card" id="feat-3">
+          <div class="feature-icon-wrap" style="--icon-color: #10b981">
+            <span class="feature-icon">🥗</span>
+          </div>
+          <h3 class="feature-title">Nutrition Planner</h3>
+          <p class="feature-desc">Scan barcodes, log meals, and get personalized macro targets with a database of 1M+ foods.</p>
+          <div class="feature-glow" style="--glow-color: #10b981"></div>
+        </div>
+
+        <div class="feature-card" id="feat-4">
+          <div class="feature-icon-wrap" style="--icon-color: #f97316">
+            <span class="feature-icon">📊</span>
+          </div>
+          <h3 class="feature-title">Progress Analytics</h3>
+          <p class="feature-desc">Beautiful charts and weekly reports that show your transformation over time, keeping you motivated every step.</p>
+          <div class="feature-glow" style="--glow-color: #f97316"></div>
+        </div>
+
+        <div class="feature-card" id="feat-5">
+          <div class="feature-icon-wrap" style="--icon-color: #ec4899">
+            <span class="feature-icon">🧘</span>
+          </div>
+          <h3 class="feature-title">Mindfulness & Recovery</h3>
+          <p class="feature-desc">Guided meditation, breathing exercises, and sleep optimization to help your body recover and your mind stay sharp.</p>
+          <div class="feature-glow" style="--glow-color: #ec4899"></div>
+        </div>
+
+        <div class="feature-card" id="feat-6">
+          <div class="feature-icon-wrap" style="--icon-color: #eab308">
+            <span class="feature-icon">🏆</span>
+          </div>
+          <h3 class="feature-title">Challenges & Community</h3>
+          <p class="feature-desc">Join global fitness challenges, compete with friends on leaderboards, and celebrate every milestone.</p>
+          <div class="feature-glow" style="--glow-color: #eab308"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOW IT WORKS ========== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="hiw-bg-orb"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Simple Process</span>
+        <h2 class="section-title">Up & Running in <br /><span class="gradient-text">3 Easy Steps</span></h2>
+      </div>
+      <div class="steps-container" id="steps-container">
+        <div class="step" id="step-1">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3 class="step-title">Create Your Profile</h3>
+            <p class="step-desc">Tell us about your fitness goals, current level, and schedule. Our AI builds a complete assessment in under 2 minutes.</p>
+          </div>
+          <div class="step-icon-wrap">
+            <span class="step-icon">👤</span>
+          </div>
+        </div>
+        <div class="step-connector">
+          <div class="connector-line"></div>
+          <div class="connector-dot"></div>
+        </div>
+        <div class="step" id="step-2">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3 class="step-title">Get Your Custom Plan</h3>
+            <p class="step-desc">Receive a fully personalized workout and nutrition plan crafted by our AI trainer based on your unique profile and goals.</p>
+          </div>
+          <div class="step-icon-wrap">
+            <span class="step-icon">⚡</span>
+          </div>
+        </div>
+        <div class="step-connector">
+          <div class="connector-line"></div>
+          <div class="connector-dot"></div>
+        </div>
+        <div class="step" id="step-3">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3 class="step-title">Track & Transform</h3>
+            <p class="step-desc">Follow your plan, log progress, and watch your body transform. Our AI fine-tunes your program as you improve.</p>
+          </div>
+          <div class="step-icon-wrap">
+            <span class="step-icon">🚀</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS ========== -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="stats-grid" id="stats-grid">
+        <div class="stat-block" id="stat-1">
+          <div class="stat-number" data-target="2000000">0</div>
+          <div class="stat-unit">+</div>
+          <div class="stat-name">Active Users</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-block" id="stat-2">
+          <div class="stat-number" data-target="98">0</div>
+          <div class="stat-unit">%</div>
+          <div class="stat-name">User Satisfaction</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-block" id="stat-3">
+          <div class="stat-number" data-target="500">0</div>
+          <div class="stat-unit">+</div>
+          <div class="stat-name">Workout Programs</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-block" id="stat-4">
+          <div class="stat-number" data-target="4">0</div>
+          <div class="stat-unit">.9★</div>
+          <div class="stat-name">App Store Rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Real Results</span>
+        <h2 class="section-title">Athletes Love <br /><span class="gradient-text">FitNexa</span></h2>
+      </div>
+      <div class="testimonials-grid" id="testimonials-grid">
+
+        <div class="testimonial-card" id="testi-1">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"I lost 15kg in 4 months without feeling like I was on a diet. FitNexa's AI trainer felt like having a personal coach in my pocket 24/7."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #f97316, #ef4444)">A</div>
+            <div>
+              <div class="testi-name">Alex Rivera</div>
+              <div class="testi-role">Marathon Runner · Lost 15kg</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card testimonial-featured" id="testi-2">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"The nutrition tracker is a game changer. It synced with my wearable and gave me the exact macros I needed. I went from 18% to 10% body fat in 6 months!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #8b5cf6, #6366f1)">M</div>
+            <div>
+              <div class="testi-name">Maya Johnson</div>
+              <div class="testi-role">Bodybuilder · 8% Body Fat Drop</div>
+            </div>
+          </div>
+          <div class="testi-badge">⭐ Featured Review</div>
+        </div>
+
+        <div class="testimonial-card" id="testi-3">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"As a busy professional, FitNexa fits my schedule perfectly. 30-min workouts that actually work. Best fitness investment I've ever made."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #06b6d4, #3b82f6)">J</div>
+            <div>
+              <div class="testi-name">Jordan Kim</div>
+              <div class="testi-role">CEO · Fitness Enthusiast</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING ========== -->
+  <section class="pricing" id="pricing">
+    <div class="pricing-bg-orb"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Flexible Plans</span>
+        <h2 class="section-title">Simple, Transparent <br /><span class="gradient-text">Pricing</span></h2>
+        <p class="section-desc">Start free. Upgrade when you're ready. No hidden fees, no contracts.</p>
+      </div>
+      <div class="pricing-toggle" id="pricing-toggle">
+        <button class="toggle-btn active" id="toggle-monthly">Monthly</button>
+        <button class="toggle-btn" id="toggle-annual">Annual <span class="save-badge">Save 40%</span></button>
+      </div>
+      <div class="pricing-grid" id="pricing-grid">
+
+        <div class="pricing-card" id="plan-free">
+          <div class="plan-badge-top">Free Forever</div>
+          <h3 class="plan-name">Starter</h3>
+          <div class="plan-price">
+            <span class="price-currency">$</span>
+            <span class="price-amount" data-monthly="0" data-annual="0">0</span>
+            <span class="price-period">/mo</span>
+          </div>
+          <p class="plan-desc">Perfect for beginners dipping their toes into fitness.</p>
+          <ul class="plan-features">
+            <li class="feat-yes">✓ 20 free workouts/month</li>
+            <li class="feat-yes">✓ Basic progress tracking</li>
+            <li class="feat-yes">✓ Nutrition log (7 days)</li>
+            <li class="feat-no">✗ AI Personal Trainer</li>
+            <li class="feat-no">✗ Advanced analytics</li>
+            <li class="feat-no">✗ Live health metrics</li>
+          </ul>
+          <a href="#" class="btn btn-outline btn-full" id="plan-free-btn">Get Started Free</a>
+        </div>
+
+        <div class="pricing-card pricing-popular" id="plan-pro">
+          <div class="plan-badge-top popular-badge">Most Popular 🔥</div>
+          <h3 class="plan-name">Pro</h3>
+          <div class="plan-price">
+            <span class="price-currency">$</span>
+            <span class="price-amount" data-monthly="12" data-annual="7">12</span>
+            <span class="price-period">/mo</span>
+          </div>
+          <p class="plan-desc">For serious athletes who want real results and full features.</p>
+          <ul class="plan-features">
+            <li class="feat-yes">✓ Unlimited workouts</li>
+            <li class="feat-yes">✓ AI Personal Trainer</li>
+            <li class="feat-yes">✓ Full nutrition planner</li>
+            <li class="feat-yes">✓ Live health metrics</li>
+            <li class="feat-yes">✓ Advanced analytics</li>
+            <li class="feat-no">✗ Team challenges</li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-full" id="plan-pro-btn">Start 7-Day Free Trial</a>
+          <div class="popular-glow"></div>
+        </div>
+
+        <div class="pricing-card" id="plan-elite">
+          <div class="plan-badge-top">All Inclusive</div>
+          <h3 class="plan-name">Elite</h3>
+          <div class="plan-price">
+            <span class="price-currency">$</span>
+            <span class="price-amount" data-monthly="24" data-annual="14">24</span>
+            <span class="price-period">/mo</span>
+          </div>
+          <p class="plan-desc">The ultimate package for elite performers and sports teams.</p>
+          <ul class="plan-features">
+            <li class="feat-yes">✓ Everything in Pro</li>
+            <li class="feat-yes">✓ Team challenges</li>
+            <li class="feat-yes">✓ Priority 1-on-1 coaching</li>
+            <li class="feat-yes">✓ Custom branded plans</li>
+            <li class="feat-yes">✓ API access</li>
+            <li class="feat-yes">✓ Dedicated support</li>
+          </ul>
+          <a href="#" class="btn btn-outline btn-full" id="plan-elite-btn">Get Elite Access</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA BANNER ========== -->
+  <section class="cta-section" id="cta-section">
+    <div class="cta-orb"></div>
+    <div class="container">
+      <div class="cta-content" id="cta-content">
+        <h2 class="cta-title">Ready to Transform <span class="gradient-text">Your Body?</span></h2>
+        <p class="cta-subtitle">Join 2M+ athletes already crushing their goals with FitNexa. Start for free — no credit card needed.</p>
+        <div class="cta-actions">
+          <a href="#pricing" class="btn btn-primary btn-lg" id="cta-main-btn">
+            Start Your Free Journey
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <div class="cta-badges">
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">FitNexa</span>
+          </a>
+          <p class="footer-tagline">Empowering 2 million+ athletes to unlock their peak potential through AI-driven fitness technology.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" id="social-twitter" aria-label="Twitter">𝕏</a>
+            <a href="#" class="social-icon" id="social-instagram" aria-label="Instagram">📸</a>
+            <a href="#" class="social-icon" id="social-youtube" aria-label="YouTube">▶</a>
+            <a href="#" class="social-icon" id="social-tiktok" aria-label="TikTok">🎵</a>
+          </div>
+        </div>
+        <div class="footer-links-group">
+          <h4 class="footer-group-title">Product</h4>
+          <ul class="footer-links">
+            <li><a href="#features" class="footer-link">Features</a></li>
+            <li><a href="#pricing" class="footer-link">Pricing</a></li>
+            <li><a href="#" class="footer-link">Changelog</a></li>
+            <li><a href="#" class="footer-link">Roadmap</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4 class="footer-group-title">Company</h4>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">About Us</a></li>
+            <li><a href="#" class="footer-link">Blog</a></li>
+            <li><a href="#" class="footer-link">Careers</a></li>
+            <li><a href="#" class="footer-link">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4 class="footer-group-title">Support</h4>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Help Center</a></li>
+            <li><a href="#" class="footer-link">Community</a></li>
+            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+            <li><a href="#" class="footer-link">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 FitNexa Inc. All rights reserved.</p>
+        <p class="footer-credit">Made with 💪🏻 for athletes everywhere</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
